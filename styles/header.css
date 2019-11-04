@@ -45,14 +45,15 @@
     position: relative;
     height: 640px;
     max-width: 1146px;
-    background-image: url("../images/slider/slide-img-1.jpg");
+    margin: 80px 81px 0 0;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 55, 87, 0.1)), to(rgba(37, 55, 87, 0.1))), url("../images/slider/slide-img-1.jpg");
+    background: linear-gradient(0deg, rgba(37, 55, 87, 0.1), rgba(37, 55, 87, 0.1)), url("../images/slider/slide-img-1.jpg");
     background-size: cover;
-    background-position: center;
-    margin: 80px 81px 0 0; }
+    background-position: center; }
   .header__intro {
     font-style: normal;
     font-weight: 800;
-    font-size: 12.6px;
+    font-size: 13px;
     line-height: 19px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -64,13 +65,20 @@
     text-transform: uppercase;
     color: #56ccf2;
     padding: 477px 0 0 98px; }
-  .header__intro-text {
-    max-width: 264px;
-    padding-left: 98px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 19.6px;
-    line-height: 27px; }
+    .header__intro-text {
+      max-width: 264px;
+      padding-left: 98px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 19.6px;
+      line-height: 27px; }
+    .header__intro-link {
+      position: relative;
+      color: white;
+      -webkit-transform: scaleY(2);
+              transform: scaleY(2);
+      font-size: 24px;
+      bottom: 3px; }
   .header__back-front {
     width: 162px;
     height: 64px;
@@ -91,13 +99,6 @@
     padding: 0 31px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
-  .header__intro-link {
-    position: relative;
-    color: white;
-    -webkit-transform: scaleY(2);
-            transform: scaleY(2);
-    font-size: 24px;
-    bottom: 3px; }
   .header__socials {
     width: 386px;
     position: relative;
@@ -114,7 +115,7 @@
   .header__soc-link {
     font-style: normal;
     font-weight: 800;
-    font-size: 12.6px;
+    font-size: 13px;
     line-height: 19px;
     letter-spacing: 2px;
     text-transform: uppercase;

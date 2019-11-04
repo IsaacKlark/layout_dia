@@ -9,7 +9,7 @@
   bottom: calc(24px); }
 
 .circle-cards__cards {
-  padding: 136px 0 0 227px;
+  padding: 136px 0 162px 227px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
