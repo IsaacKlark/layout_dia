@@ -1,0 +1,76 @@
+.circle-cards__h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #253757;
+  position: relative;
+  bottom: calc(24px); }
+
+.circle-cards__cards {
+  padding: 136px 0 0 227px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.circle-cards__card {
+  margin-right: 128px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.circle-cards__img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%; }
+
+.circle-cards__h3 {
+  margin-top: 64px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 27px;
+  color: #253757;
+  width: 264px; }
+
+.circle-cards__p {
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #253757;
+  mix-blend-mode: normal;
+  width: 264px; }
+
+@media (max-width: 1000px) {
+  .circle-cards__cards {
+    padding: 136px 0 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .circle-cards__card {
+    margin: 0 0 126px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .circle-cards__h3 {
+    text-align: center; }
+  .circle-cards__p {
+    text-align: center; }
+  .circle-cards__img {
+    -ms-flex-item-align: center;
+        align-self: center; } }
+
+/*# sourceMappingURL=circle-cards.css.map */
