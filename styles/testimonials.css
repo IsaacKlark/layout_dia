@@ -18,7 +18,9 @@
     margin-right: 78px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    position: relative; }
+    position: relative;
+    background-color: white;
+    z-index: 1; }
   .testimonials__circle {
     position: absolute;
     width: 162px;
