@@ -164,7 +164,16 @@ a {
     color: #253757;
     margin-bottom: 136px; }
 
-@media (max-width: 680px) {
+@media (max-width: 400px) {
+  .header {
+    height: 2500px; }
+    .header__intro {
+      padding: 372px 0 0 74px; }
+      .header__intro-text {
+        padding-left: 0;
+        text-align: center; } }
+
+@media (max-width: 680px) and (min-width: 401px) {
   .header {
     height: 2050px; } }
 
