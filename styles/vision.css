@@ -11,7 +11,7 @@
     line-height: 48px;
     text-align: center;
     color: #253757;
-    padding: 320px 0 0 57px; }
+    padding: 320px 0 0; }
   .vision__p {
     max-width: 754px;
     font-style: normal;
@@ -177,6 +177,6 @@
 
 @media (max-width: 1000px) {
   .vision__h2 {
-    margin: 100px 0 0 57px; } }
+    padding: 20px 0 0 57px; } }
 
 /*# sourceMappingURL=vision.css.map */
