@@ -1,0 +1,158 @@
+.testimonials {
+  padding: 166px 0 0 227px; }
+  .testimonials__h3 {
+    width: 362px;
+    margin-top: 19px; }
+  .testimonials__cards {
+    margin: 86px 0 0 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .testimonials__card {
+    width: 314px;
+    height: 464px;
+    -webkit-box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+            box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+    margin-right: 78px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative; }
+  .testimonials__circle {
+    position: absolute;
+    width: 162px;
+    height: 64px;
+    border-radius: 500px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    top: 100px;
+    left: 84px; }
+  .testimonials__circle1 {
+    background-color: #56ccf2; }
+  .testimonials__circle2 {
+    background-color: #fcc304; }
+  .testimonials__circle3 {
+    background-color: #f25656; }
+  .testimonials__img {
+    position: relative;
+    width: 123px;
+    height: 64px;
+    border-radius: 500px;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transform: matrix(0.42, 0.91, 0.91, -0.42, 0, 0);
+            transform: matrix(0.42, 0.91, 0.91, -0.42, 0, 0);
+    overflow: hidden;
+    top: 144px;
+    left: 102px; }
+  .testimonials__img1 {
+    width: 100px;
+    height: 176px;
+    background-image: url("../images/testimonials/testimonial-ava-1.jpg");
+    background-size: cover;
+    -webkit-transform: matrix(0.42, 0.91, 0.91, -0.42, 0, 0);
+            transform: matrix(0.42, 0.91, 0.91, -0.42, 0, 0);
+    position: absolute;
+    top: -60px;
+    left: 5px; }
+  .testimonials__img2 {
+    width: 148px;
+    height: 126px;
+    background-image: url("../images/testimonials/testimonial-ava-2.jpg");
+    background-size: cover;
+    -webkit-transform: matrix(0.42, 0.91, 0.91, -0.42, 0, 0);
+            transform: matrix(0.42, 0.91, 0.91, -0.42, 0, 0);
+    position: absolute;
+    top: -57px;
+    left: -23px; }
+  .testimonials__img3 {
+    width: 153px;
+    height: 131px;
+    background-image: url("../images/testimonials/testimonial-ava-3.jpg");
+    background-size: cover;
+    -webkit-transform: matrix(0.42, 0.91, 0.91, -0.42, 0, 0);
+            transform: matrix(0.42, 0.91, 0.91, -0.42, 0, 0);
+    position: absolute;
+    top: -57px;
+    left: -23px; }
+  .testimonials__p {
+    width: 250px;
+    margin: 185px auto 0;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #253757;
+    position: relative; }
+    .testimonials__p-blue::after {
+      content: "";
+      position: absolute;
+      width: 64px;
+      height: 2px;
+      background-color: #56ccf2;
+      bottom: -35px;
+      left: 94px; }
+    .testimonials__p-orange::after {
+      content: "";
+      position: absolute;
+      width: 64px;
+      height: 2px;
+      background-color: #fcc304;
+      bottom: -35px;
+      left: 94px; }
+    .testimonials__p-red::after {
+      content: "";
+      position: absolute;
+      width: 64px;
+      height: 2px;
+      background-color: #f25656;
+      bottom: -35px;
+      left: 94px; }
+  .testimonials__name {
+    margin: 64px 0 -12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    color: #253757; }
+  .testimonials__ceo {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+    .testimonials__ceo-blue {
+      color: #56ccf2; }
+    .testimonials__ceo-orange {
+      color: #fcc304; }
+    .testimonials__ceo-red {
+      color: #f25656; }
+
+@media (max-width: 1000px) {
+  .testimonials {
+    padding: 166px 0; }
+    .testimonials__h2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    .testimonials__h3 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      text-align: center;
+      margin: 19px auto 0; }
+    .testimonials__cards {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    .testimonials__card {
+      margin: 10px; } }
+
+/*# sourceMappingURL=testimonials.css.map */

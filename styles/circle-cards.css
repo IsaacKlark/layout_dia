@@ -65,6 +65,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+  .circle-cards__h2 {
+    margin-top: 100px; }
   .circle-cards__h3 {
     text-align: center; }
   .circle-cards__p {

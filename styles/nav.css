@@ -29,7 +29,11 @@
             justify-content: space-between;
     -webkit-box-flex: 0.8;
         -ms-flex-positive: 0.8;
-            flex-grow: 0.8; }
+            flex-grow: 0.8;
+    -webkit-transition: color, 0.4s;
+    transition: color, 0.4s; }
+  .nav__link:hover {
+    color: green; }
   .nav__item:last-child > a {
     margin-left: 135px;
     position: relative; }
@@ -51,7 +55,7 @@
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column; }
-    .nav__last {
+    .nav__item:last-child > a {
       margin-left: 0; }
     .nav__logo {
       margin-right: 0;
