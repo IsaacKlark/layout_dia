@@ -30,7 +30,7 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  color: white; }
+  color: green; }
   .header__back {
     height: 848px;
     width: 100%;
