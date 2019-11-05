@@ -359,8 +359,29 @@ a {
   width: 264px; }
 
 @media (max-width: 400px) {
+  .circle-cards__cards {
+    padding: 136px 0 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .circle-cards__card {
+    margin: 0 0 126px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
   .circle-cards__h2 {
-    margin-top: 0; } }
+    margin-top: 0; }
+  .circle-cards__h3 {
+    text-align: center; }
+  .circle-cards__p {
+    text-align: center; }
+  .circle-cards__img {
+    -ms-flex-item-align: center;
+        align-self: center; } }
 
 @media (max-width: 1000px) and (min-width: 401px) {
   .circle-cards__cards {
