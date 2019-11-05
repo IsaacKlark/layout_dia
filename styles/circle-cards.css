@@ -50,7 +50,7 @@
   mix-blend-mode: normal;
   width: 264px; }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .circle-cards__h2 {
     margin-top: 0; } }
 
