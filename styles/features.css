@@ -45,6 +45,10 @@
     color: white;
     mix-blend-mode: normal; }
 
+@media (max-width: 400px) {
+  .features {
+    top: 100px; } }
+
 @media (max-width: 1000px) {
   .features__h2-main {
     display: -webkit-box;
