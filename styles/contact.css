@@ -55,6 +55,20 @@
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; } }
+            align-items: center; }
+    .contact__h3 {
+      text-align: center; }
+    .contact__a {
+      text-align: center; }
+    .contact__icos {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+    .contact__ico {
+      margin-right: 20px;
+      margin-left: 20px; } }
 
 /*# sourceMappingURL=contact.css.map */

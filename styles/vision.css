@@ -1,6 +1,5 @@
 .vision {
   background-color: #fcfcfd;
-  width: 100%;
   height: 1615px;
   position: relative;
   bottom: 154px; }
@@ -42,6 +41,11 @@
     border-radius: 64px;
     cursor: pointer;
     z-index: 2; }
+  .vision__ovals {
+    position: absolute;
+    top: 0;
+    height: 1615px;
+    width: 100%; }
   .vision__oval-1 {
     position: absolute;
     width: 85px;
@@ -175,8 +179,14 @@
     top: 43%;
     opacity: 0.4; }
 
+@media (max-width: 400px) {
+  .vision__oval {
+    display: none; } }
+
 @media (max-width: 1000px) {
   .vision__h2 {
-    padding: 20px 0 0 57px; } }
+    padding: 20px 0 0; }
+  .vision__ovals {
+    width: 80%; } }
 
 /*# sourceMappingURL=vision.css.map */

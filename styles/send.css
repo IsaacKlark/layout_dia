@@ -61,7 +61,7 @@
             align-items: center;
     margin: 150px 0 0; }
     .send__input {
-      width: 390px; }
+      width: 80%; }
     .send__form {
       -webkit-box-align: center;
           -ms-flex-align: center;
