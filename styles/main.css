@@ -520,7 +520,9 @@ a {
   .process__back {
     height: 1300px; }
   .process__cards {
-    width: 250px; } }
+    width: 250px; }
+  .process__h3 {
+    text-align: center; } }
 
 @media (min-width: 1000px) {
   .process__back {
