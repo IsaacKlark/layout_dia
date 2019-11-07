@@ -279,7 +279,9 @@ a {
       margin-left: 0; }
     .nav__logo {
       margin-right: 0;
-      text-align: center; } }
+      text-align: center; }
+    .nav__link {
+      margin-top: 20px; } }
 
 @media (min-width: 1400px) {
   .nav {
