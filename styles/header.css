@@ -42,7 +42,6 @@
   .header__image {
     position: relative;
     height: 640px;
-    max-width: 1146px;
     margin: 80px 81px 0 0;
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 55, 87, 0.1)), to(rgba(37, 55, 87, 0.1))), url("../images/slider/slide-img-1.jpg");
     background: linear-gradient(0deg, rgba(37, 55, 87, 0.1), rgba(37, 55, 87, 0.1)), url("../images/slider/slide-img-1.jpg");
@@ -142,11 +141,48 @@
 @media (max-width: 400px) {
   .header {
     height: 2500px; }
+    .header__h2 {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 250px auto 0; }
     .header__intro {
-      padding: 372px 0 0 74px; }
+      padding: 372px 0 0;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      text-align: center; }
       .header__intro-text {
         padding-left: 0;
-        text-align: center; } }
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto; }
+    .header__back-front {
+      top: 124px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto; }
+    .header__socials {
+      bottom: 0;
+      right: 0;
+      left: 0;
+      top: 165px;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 100%; } }
 
 @media (max-width: 680px) and (min-width: 401px) {
   .header {
@@ -160,7 +196,20 @@
   .header {
     height: 1600px; } }
 
+@media (max-width: 1000px) and (min-width: 401px) {
+  __h2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 166px auto 0; } }
+
 @media (max-width: 1000px) {
+  .header__h1 {
+    font-size: 42px;
+    line-height: 58px;
+    margin-bottom: 50px; }
+  .header__image {
+    margin-right: 0; }
   .header__back {
     padding-left: 0;
     background: -webkit-gradient(linear, left bottom, left top, from(#fcfcfd), color-stop(10%, #56ccf2), to(#56ccf2));
@@ -176,22 +225,48 @@
   .header__button {
     display: block;
     margin: 42px auto 0; }
-  .header__image {
-    margin: 80px 81px; }
   .header__intro-text {
     padding: 0 auto; }
   .header__h2 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
-    margin: 166px auto 0; }
+            justify-content: center; }
   .header__welcom-p {
     margin: 19px auto;
     text-align: center; } }
 
+@media (max-width: 1200px) and (min-width: 400px) {
+  .header__h2 {
+    margin: 166px 0 0; }
+  .header__back {
+    padding-left: 0; }
+  .header__back-front {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto; }
+  .header__socials {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 50px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%; }
+  .header__image {
+    margin-right: 0;
+    width: 100%; } }
+
 @media (min-width: 1200px) {
   .header__back {
-    padding-left: 227px; } }
+    padding-left: 14.5%; }
+  .header__image {
+    max-width: 1146px; } }
 
 @media (min-width: 1620px) {
   .header__back {
@@ -205,5 +280,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto; } }
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+  .header__welcom-p {
+    margin-left: auto;
+    margin-right: auto; }
+  .header__h2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 
 /*# sourceMappingURL=header.css.map */

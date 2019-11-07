@@ -6,7 +6,7 @@
     background-color: #fcfcfd;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding-left: 163px;
+    padding-left: 11.5%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
@@ -36,7 +36,7 @@
     color: #253757;
     mix-blend-mode: normal; }
   .process__cards {
-    margin: 225px 0 0 187px;
+    margin: 225px 0 0 14.5%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -120,6 +120,11 @@
 @media (min-width: 1000px) {
   .process__back {
     height: 816px; } }
+
+@media (max-width: 1200px) and (min-width: 600px) {
+  .process__h3, .process__p {
+    max-width: 60%;
+    text-align: center; } }
 
 @media (max-width: 1200px) {
   .process {

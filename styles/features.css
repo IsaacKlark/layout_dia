@@ -21,12 +21,12 @@
     color: white;
     z-index: 2; }
     .features__h2-main {
-      padding: 198px 0 0 227px; }
+      padding: 198px 0 0 14.5%; }
   .features__pict {
     z-index: 2;
     background-image: url("../images/sub-title/sub-title-icon-light.svg"); }
   .features__h3 {
-    padding: 19px 0 5px 227px;
+    padding: 19px 0 5px 14.5%;
     max-width: 362px; }
   .features__card {
     display: -webkit-box;
@@ -35,7 +35,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 64px 0 0 227px; }
+    padding: 64px 0 0 14.5%; }
   .features__img {
     width: 64px;
     height: 64px;
@@ -63,11 +63,18 @@
         -ms-flex-pack: center;
             justify-content: center;
     padding: 198px 0 0; }
+  .features__back {
+    background-color: #56ccf2; }
   .features__h3 {
-    padding: 19px 0 0 50px;
-    max-width: 500px; }
+    padding: 19px 0 0;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center; }
   .features__card {
-    padding: 40px 0 0 50px; } }
+    padding: 40px 0 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 
 @media (min-width: 1620px) {
   .features {

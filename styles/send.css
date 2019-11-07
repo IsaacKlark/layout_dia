@@ -10,8 +10,8 @@
 
 .send__input {
   background-color: #fcfcfd;
+  width: 42vw;
   margin-top: 30px;
-  width: 656px;
   height: 58px;
   font-style: normal;
   font-weight: bold;
@@ -59,12 +59,13 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 150px 0 0; }
+    margin: 200px 0 0; }
     .send__input {
-      width: 80%; }
+      text-align: center; }
     .send__form {
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center; } }
+              align-items: center;
+      padding-top: 0; } }
 
 /*# sourceMappingURL=send.css.map */
