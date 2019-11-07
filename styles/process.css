@@ -112,7 +112,10 @@
   .process__cards {
     width: 250px; }
   .process__h3 {
-    text-align: center; } }
+    text-align: center; }
+  .process__p {
+    margin-left: 10px;
+    margin-right: 10px; } }
 
 @media (min-width: 1000px) {
   .process__back {
