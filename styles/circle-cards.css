@@ -6,8 +6,7 @@
   text-align: center;
   color: #253757;
   position: relative;
-  bottom: calc(24px);
-  max-width: 1600px; }
+  bottom: calc(24px); }
 
 .circle-cards__cards {
   padding: 136px 0 162px 227px;
@@ -100,5 +99,14 @@
   .circle-cards__img {
     -ms-flex-item-align: center;
         align-self: center; } }
+
+@media (min-width: 1620px) {
+  .circle-cards__cards {
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 
 /*# sourceMappingURL=circle-cards.css.map */
