@@ -6,7 +6,8 @@
   text-align: center;
   color: #253757;
   position: relative;
-  bottom: calc(24px); }
+  bottom: calc(24px);
+  max-width: 1600px; }
 
 .circle-cards__cards {
   padding: 136px 0 162px 227px;

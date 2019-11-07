@@ -322,7 +322,8 @@ a {
   text-align: center;
   color: #253757;
   position: relative;
-  bottom: calc(24px); }
+  bottom: calc(24px);
+  max-width: 1600px; }
 
 .circle-cards__cards {
   padding: 136px 0 162px 227px;
@@ -802,7 +803,8 @@ a {
   background-color: #fcfcfd;
   height: 1615px;
   position: relative;
-  bottom: 154px; }
+  bottom: 154px;
+  max-width: 1600px; }
   .vision__h2 {
     font-style: normal;
     font-weight: 900;
