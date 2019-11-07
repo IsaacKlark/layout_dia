@@ -105,12 +105,13 @@ a {
       font-size: 24px;
       bottom: 3px;
       -webkit-transition: color, 0.4s;
-      transition: color, 0.4s; }
+      transition: color, 0.4s;
+      background-color: #fcc304; }
     .header__intro-link:hover {
       color: green; }
   .header__back-front {
     width: 162px;
-    height: 64px;
+    height: 68px;
     background-color: #fcc304;
     position: absolute;
     top: 303px;
