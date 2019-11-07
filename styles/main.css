@@ -35,6 +35,7 @@ a {
     padding-left: 90px;
     height: 848px;
     width: 100%;
+    max-width: 1600px;
     background: linear-gradient(-65deg, #fcfcfd 22%, #56ccf2 22%, #56ccf2 100%);
     padding-top: 48px; }
   .header__h1 {
